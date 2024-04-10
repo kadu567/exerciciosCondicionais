@@ -1,24 +1,23 @@
 #include <iostream>
 
 int main(){
-    int num, num2;
+    float num, num2;
     printf("Insira sua altura em metros: ");
-    scanf("%d", &num);
+    scanf("%f", &num);
     printf("Insira seu peso em quilogramas: ");
-    scanf("%d", &num2);
+    scanf("%f", &num2);
     
-    if (num2 / num * num < 18,5) {
-        printf("Categoria: Abaixo do peso");
-    } else if (num2 / num * num > 18,5 == 25){
-    printf("Categoria: Peso normal");
-    } else if (num2 / num * num > 30){
-        printf("")
+float conta (num2 / (num * num));
 
+printf("Seu IMC é: %f", conta);
     
-    
-    
-    
-    
+    if (conta < 18.5) {
+        printf(" Categoria: Abaixo do peso ");
+    } else if (conta > 18.5 || conta >= 25){
+        printf(" Categoria: Peso normal ");
+    } else if (conta > 30){
+        printf(" Categoria: Obeso ");
+    }
     
     
     return 0;
